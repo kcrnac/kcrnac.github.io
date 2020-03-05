@@ -1,15 +1,15 @@
 # Site
-name: "Affiliates Theme for Jekyll"
-title: "Affiliates Theme for Jekyll"
-description: "Jekyll Theme for Blogging"
-meta_description: "Jekyll theme for blogging."
+name: "CodedMind"
+title: "CodedMind"
+description: "Kristijan Crnac's blogging platform"
+meta_description: "Kristijan Crnac blogging platform"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 paginate: 12
 baseurl: ''
-email: 'wowthemesnet@gmail.com'
+email: 'crnac.kristijan@gmail.com'
 google_analytics: 'UA-159879067-1'
-disqus: 'demowebsite'
+disqus: 'kcrnac-github-io'
 
 # Authors
 authors:
