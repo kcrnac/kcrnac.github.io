@@ -8,17 +8,16 @@ favicon: 'assets/images/favicon.ico'
 paginate: 12
 baseurl: ''
 email: 'wowthemesnet@gmail.com'
-google_analytics: 'UA-46278016-1'
+google_analytics: 'UA-159879067-1'
 disqus: 'demowebsite'
-sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a6b2fe4fb197a0011c589f6&product=sticky-share-buttons"></script>'
 
 # Authors
 authors:
-  sal:
-    name: Sal
-    display_name: Sal
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: wowthemesnet@gmail.com
+  kcrnac:
+    name: Kristijan Crnac
+    display_name: kcrnac
+    gravatar: 9ebd955d04fcb59383e2668ac4393d60
+    email: crnac.kristijan@gmail.com
     web: https://www.wowthemes.net/category/jekyll-themes/
     twitter: https://twitter.com/wowthemesnet
     description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
