@@ -10,6 +10,9 @@ baseurl: ''
 email: 'crnac.kristijan@gmail.com'
 google_analytics: 'UA-159879067-1'
 disqus: 'kcrnac-github-io'
+grid_size_post: 6
+
+include: ["_pages"]
 
 # Authors
 authors:

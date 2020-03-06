@@ -7,3 +7,12 @@
 @import
 	"syntax"
 ;
+
+.pagination {
+	display: flex;
+	padding-left: 0;
+	list-style: none;
+	border-radius: 0.25rem; 
+	font-size: 14px;
+	font-weight: 600;
+  }

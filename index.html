@@ -13,15 +13,15 @@ title: Home
 
     <div class="row listfeaturedtag">
 
-    {% for post in site.posts %}
+        {% for post in site.posts %}
 
         {% if post.featured == true %}
 
-            {% include featuredbox.html %}
+        {% include featuredbox.html %}
 
         {% endif %}
 
-    {% endfor %}
+        {% endfor %}
 
     </div>
 
@@ -33,7 +33,7 @@ title: Home
 {% if paginator.previous_page > 0 %}
 <div id="jumptopageof"></div>
 {% endif %}
-{% endif %}    
+{% endif %}
 
 <section class="recent-posts row">
 
@@ -44,7 +44,7 @@ title: Home
     <div class="col-sm-8">
 
         <div class="section-title">
-            <h2><span>All Stories</span></h2>    
+            <h2><span>All Stories</span></h2>
         </div>
 
         <div class="masonrygrid row listrecent">
@@ -53,23 +53,17 @@ title: Home
 
             {% unless post.featured == true %}
 
-                {% include postbox.html %}
+            {% include postbox.html %}
 
             {% endunless %}
 
             {% endfor %}
 
-        </div> 
+        </div>
 
         <!-- Pagination -->
-        <div class="bottompagination">
-
-            <span class="navigation" role="navigation">
-
-                {% include pagination.html %}
-
-            </span>
-
+        <div>
+            {% include pagination.html %}
         </div>
 
     </div>
