@@ -5,7 +5,7 @@ description: "Kristijan Crnac's blogging platform"
 meta_description: "Kristijan Crnac blogging platform"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-paginate: 4
+paginate: 12
 baseurl: ''
 email: 'crnac.kristijan@gmail.com'
 google_analytics: 'UA-159879067-1'
