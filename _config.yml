@@ -5,7 +5,7 @@ description: "Kristijan Crnac's blogging platform"
 meta_description: "Kristijan Crnac blogging platform"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-paginate: 12
+paginate: 4
 baseurl: ''
 email: 'crnac.kristijan@gmail.com'
 google_analytics: 'UA-159879067-1'
@@ -13,8 +13,8 @@ disqus: 'kcrnac-github-io'
 grid_size_post: 6
 
 link:
-  github: 'https://github.com/kcrnac'
-  linkedin: 'https://www.linkedin.com/in/kcrnac'
+  github: https://github.com/kcrnac
+  linkedin: https://www.linkedin.com/in/kcrnac
 
 include: ["_pages"]
 
@@ -25,17 +25,9 @@ authors:
     display_name: kcrnac
     gravatar: 9ebd955d04fcb59383e2668ac4393d60
     email: crnac.kristijan@gmail.com
-    web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: John
-    display_name: John
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Affiliates theme demo, a Jekyll template compatible with Github pages."
+    web: https://kcrnac.github.io/about
+    twitter: https://twitter.com/kcrnac
+    description: "Passionate Full-Stack .NET developer who's very motivated, persistent and meticulous with a strong desire for advancement, technology, and learning in general."
 
 # Plugins
 plugins: 

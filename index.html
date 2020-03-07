@@ -5,6 +5,8 @@ title: Home
 
 <!-- Featured
 ================================================== -->
+{% assign featuredPosts = site.posts | where: "featured", true %}
+{% if  featuredPosts != empty %}
 <section class="featured-posts">
 
     <div class="section-title">
@@ -12,20 +14,17 @@ title: Home
     </div>
 
     <div class="row listfeaturedtag">
-
-        {% for post in site.posts %}
-
-        {% if post.featured == true %}
+        
+        {% for post in featuredPosts  %}
 
         {% include featuredbox.html %}
-
-        {% endif %}
 
         {% endfor %}
 
     </div>
 
 </section>
+{% endif %}
 
 <!-- Posts Index
 ================================================== -->
@@ -37,14 +36,14 @@ title: Home
 
 <section class="recent-posts row">
 
-    <div class="col-sm-4">
+    <div class="col-md-4 order-2">
         {% include sidebar.html %}
     </div>
 
-    <div class="col-sm-8">
+    <div class="col-md-8 order-1 order-md-2">
 
         <div class="section-title">
-            <h2><span>All Stories</span></h2>
+            <h2><span>All Posts</span></h2>
         </div>
 
         <div class="masonrygrid row listrecent">

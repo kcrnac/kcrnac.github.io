@@ -11,7 +11,7 @@ post_class: post-template
 <div class="row">
 
     <!-- Sidebar -->
-    <div class="col-sm-4">
+    <div class="col-md-4 order-2">
         {% include sidebar.html %}
     </div>
 
@@ -19,7 +19,7 @@ post_class: post-template
     <!-- Post -->
     {% assign author = site.authors[page.author] %}
 
-    <div class="col-sm-8">
+    <div class="col-md-8 order-1 order-md-2">
         <div class="mainheading">
 
             <!-- Post Categories -->
@@ -83,7 +83,7 @@ post_class: post-template
 
         <!-- Author Box -->
         {% if page.author %}
-        <div class="row post-top-meta">
+        <div class="row post-top-meta mb-5">
             <div class="col-md-2">
                 <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x"
                     alt="{{ author.display_name }}">
@@ -96,22 +96,18 @@ post_class: post-template
         </div>
         {% endif %}
 
-
-        <!-- Begin Comments
-            ================================================== -->
-        <section>
-            <div id="comments">
-                {% include disqus.html %}
-            </div>
-        </section>
-        <!--End Comments
-            ================================================== -->
-
-
-
     </div>
     <!-- End Post -->
 
+    <!-- Begin Comments
+    ================================================== -->
+    <section class="col-md-12 order-3">
+        <div id="comments">
+            {% include disqus.html %}
+        </div>
+    </section>
+    <!--End Comments
+    ================================================== -->
 
 
 </div>
