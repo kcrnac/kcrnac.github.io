@@ -12,6 +12,10 @@ google_analytics: 'UA-159879067-1'
 disqus: 'kcrnac-github-io'
 grid_size_post: 6
 
+link:
+  github: 'https://github.com/kcrnac'
+  linkedin: 'https://www.linkedin.com/in/kcrnac'
+
 include: ["_pages"]
 
 # Authors
