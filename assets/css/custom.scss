@@ -20,3 +20,17 @@
 .sidebar {
     max-width: 100%;
 }
+
+.listfeaturedtag {
+	.wrapfooter {
+		position:relative;
+		bottom: 0;
+		display:block;
+		width: 100%;
+		font-size: 12px;
+		margin-top: 30px;
+	}
+	.wrapthumbnail {
+		height: auto;
+	}
+}
